@@ -99,7 +99,6 @@ if __name__ == "__main__":
         "dtype": torch.bfloat16,
     }
 
-    #torch.manual_seed(123)
     model = Qwen3_5Model(QWEN3_5_CONFIG)
     print("\nModel : \n", model)
 
