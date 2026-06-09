@@ -133,6 +133,7 @@ modules/
 The code is expected to work for all models Qwen3.5 0.8B - 9B by corresponding configurations, but only "Qwen3.5 0.8B" and "Qwen3.5 9B" are checked, and other models are to be checked.
 
 ## References
+- [HuggingFace](https://huggingface.co/Qwen/Qwen3.5-9B)
 - [Qwen3.5 0.8B From Scratch](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/16_qwen3.5)
 - [Qwen3.5 Playground](https://github.com/rishikksh20/qwen3-5-playground)
 
