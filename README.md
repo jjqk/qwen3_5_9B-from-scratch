@@ -118,6 +118,7 @@ modules/
 ```
 
 ## Key Implementation Details
+```
 - The core hybrid architecture
   Instead of utilizing standard quadratic attention for every layer, Qwen3.5 uses a 3:1 hybrid ratio:
   - 75% of the layers utilize Gated DeltaNet (Linear Attention) to achieve highly compressed, O(1) per-token memory scaling.
@@ -128,6 +129,7 @@ modules/
   The full attention layer employs Grouped Query Attention (GQA).
 - Weight loading
   The weights of the model Qwen3_5Model is loaded from HuggingFace, refer to `modules/loading_weights.py`.
+```
 
 ## Note
 The code is expected to work for all models Qwen3.5 0.8B - 9B by corresponding configurations, but only "Qwen3.5 0.8B" and "Qwen3.5 9B" are checked, and other models are to be checked.
